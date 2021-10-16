@@ -13,7 +13,11 @@ public class Digit {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(digit(157));
+		Scanner sc=new Scanner(System.in);
+		int n;
+		System.out.println("enter number ");
+		n=sc.nextInt();
+		System.out.println(digit(n));
 
 	}
 
