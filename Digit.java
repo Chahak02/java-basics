@@ -15,7 +15,7 @@ public class Digit {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		int n;
-		System.out.println("enter number ");
+		System.out.println("enter the number ");
 		n=sc.nextInt();
 		System.out.println(digit(n));
 
